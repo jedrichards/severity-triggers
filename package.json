@@ -1,5 +1,5 @@
 {
-  "name": "severity-triggers",
+  "name": "severity-triggers-assistant",
   "homepage": "https://github.com/jedrichards/severity-triggers",
   "version": "0.1.0",
   "main": "dist/index.js",
@@ -28,7 +28,6 @@
     "package-tarball": "yarn build && yarn pack"
   },
   "devDependencies": {
-    "@sketch-hq/sketch-assistant-utils": "5.0.0-next.11",
     "@types/jest": "25.2.1",
     "@types/node": "12.12.38",
     "jest": "25.5.4",
@@ -40,6 +39,7 @@
     "webpack-cli": "3.3.11"
   },
   "dependencies": {
-    "@sketch-hq/sketch-core-assistant": "5.0.0-next.13"
+    "@sketch-hq/sketch-assistant-types": "6.0.0-rc.1",
+    "@sketch-hq/sketch-core-assistant": "6.0.0-rc.1"
   }
 }

@@ -1,5 +1,5 @@
 import {
-  AssistantPackageExport,
+  AssistantPackage,
   AssistantConfig,
   ViolationSeverity,
 } from '@sketch-hq/sketch-assistant-types'
@@ -31,11 +31,11 @@ export const config: AssistantConfig = {
   },
 }
 
-const assistant: AssistantPackageExport = [
+const assistant: AssistantPackage = [
   CoreAssistant,
   async () => {
     return {
-      name: 'severity-triggers',
+      name: 'severity-triggers-assistant',
       rules: [],
       config,
     }
