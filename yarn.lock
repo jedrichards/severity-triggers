@@ -488,22 +488,22 @@
   dependencies:
     type-detect "4.0.8"
 
-"@sketch-hq/sketch-assistant-types@6.0.0-rc.1":
-  version "6.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-types/-/sketch-assistant-types-6.0.0-rc.1.tgz#d8ee00815d676ead89ae30fede740518433fe84e"
-  integrity sha512-oEAEkQP1XauumbMLGzNDg5zE93Rthe6hHIq5GTNMQhPixt4pRuFjkbMmCfAFdFTypgNk0BBlPT7zP6uGey8QNg==
+"@sketch-hq/sketch-assistant-types@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-types/-/sketch-assistant-types-6.0.0.tgz#9b9f936db4f56a8934e68a8871c66471d1a257b4"
+  integrity sha512-o8N8AWGnyOLZzmqZXgz9dfyDCsvvOUVOHjBnJoaKxdzhUXyD6JPtLJYllxLD2NdKX7OXV8BanotfdqjKs0p3yA==
   dependencies:
     "@schemastore/package" "0.0.5"
     "@sketch-hq/sketch-file-format-ts" "5.1.1"
     "@types/json-schema" "7.0.4"
 
-"@sketch-hq/sketch-core-assistant@6.0.0-rc.1":
-  version "6.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-core-assistant/-/sketch-core-assistant-6.0.0-rc.1.tgz#5f2cf939586426576623e70e345a2555350c696f"
-  integrity sha512-vvBeTFdtgoTpNDsfprtuOBXM1wHqqXmGE70bxayjqTUM92UEd7RuynA4hzZvDxx9Wc6URRG6RUciWOOTCGOccw==
+"@sketch-hq/sketch-core-assistant@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-core-assistant/-/sketch-core-assistant-6.2.0.tgz#74920eafdd1bcdbd9efe45b05d9bb7a991457b40"
+  integrity sha512-Q8w46OS+cjS81pJOqTENuPsTQkp1ldzeWCVBlwKReUe9WjBTy0QUU5dbqQsjgPaiMegRqdh/EZxNQ7f9k5qAOw==
   dependencies:
     "@lingui/core" "2.9.1"
-    "@sketch-hq/sketch-assistant-types" "6.0.0-rc.1"
+    "@sketch-hq/sketch-assistant-types" "6.0.0"
     "@types/lingui__core" "2.7.0"
     "@types/lingui__macro" "2.7.3"
 
